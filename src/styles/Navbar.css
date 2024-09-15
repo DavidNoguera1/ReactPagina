@@ -1,0 +1,113 @@
+.navbar {
+    width: 100%;
+    height: 120px;
+    background-color: #860c35;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .navbar .ladoIz {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 90px;
+  }
+  
+  .navbar .ladoIz img {
+    width: 340px;
+  }
+  
+  .navbar .ladoDer {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+  
+  .navbar a {
+    color: rgb(238, 182, 118);
+    text-decoration: none;
+    margin: 20px;
+    font-size: 20px;
+  }
+
+  .navbar a:hover {
+    color: #ffffff;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+  }
+  
+  .navbar .ladoDer button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .navbar .ladoDer svg {
+    font-size: 40px;
+  }
+  
+  .navbar #mostar {
+    padding-left: 0px;
+  }
+  .navbar #mostar img {
+    display: none;
+  }
+  
+  .navbar #ocultar img {
+    display: inherit;
+  }
+  
+  .navbar #mostar a {
+    width: 70px;
+    margin: 5px;
+  }
+  @media only screen and (max-width: 900px) {
+    .navbar .ladoDer a {
+      width: 70px;
+    }
+    .navbar .ladoIz {
+      padding-left: 50px;
+    }
+  }
+  
+
+/* Todo esto sirve para flexibilizar la pagina cuando reduzca la pantalla y para ocultar la navbar*/
+
+.navbar #mostar .linksOcultos {
+    display: inherit;
+    margin-left: 30px;
+  }
+  
+  .navbar #ocultar .linksOcultos {
+    display: none;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .navbar .ladoDer a {
+      display: none;
+    }
+  
+    .navbar .ladoDer {
+      justify-content: flex-end;
+      padding-right: 50px;
+    }
+  
+    .navbar .ladoDer button {
+      display: inherit;
+    }
+  }
+  
+  @media only screen and (min-width: 700px) {
+    .navbar .ladoDer button {
+      display: none;
+    }
+  
+    .linksOcultos {
+      display: none;
+    }
+  }

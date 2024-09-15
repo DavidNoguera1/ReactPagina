@@ -1,0 +1,93 @@
+.productos {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(90deg, rgba(231, 199, 151, 0.8), rgba(255, 184, 92, 0.9)); 
+  }
+
+  .contenedorTitulo{
+    border-radius: 15px;
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    width: 70%;
+    background-color: rgb(153, 37, 56);
+    justify-content: center;
+  }
+
+  .contenedorTitulo .tituloProductos {
+    font-family: 'Source Sans Pro Topnav', sans-serif;
+    font-size: 30px;
+    margin: 10px 20px; 
+    color: aliceblue;
+  }
+  
+  
+  .listaProductos {
+    width: 50vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    margin-bottom: 20px; 
+  }
+  
+  .itemProducto {
+    border-radius: 15px;
+    width: 300px;
+    height: 350px;
+    margin: 0;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: white; 
+  }
+  
+  .itemProducto div {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white; 
+  }
+  
+  .itemProducto img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; 
+  }
+  
+  
+  .itemProducto div {
+    background-color: white; 
+  }
+  
+  .itemProducto h1{
+    font-size: 20px;
+    margin: 10px 20px; 
+  }
+
+  .itemProducto p {
+    font-size: 15px;
+    margin: 5px 20px; 
+  }
+  
+  @media only screen and (max-width: 1300px) {
+    .listaProductos {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .listaProductos {
+      grid-template-columns: 1fr; /* Cambia a 1 columna */
+    }
+  }
+  
+
