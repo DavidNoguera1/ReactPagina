@@ -6,12 +6,13 @@ import '../styles/Tareas.css'
 
 function Tarea() {
 
-  const rutaArchvio = '/src/Utilidades/baseMH.js';
+  //const rutaArchvio = '../Utilidades/baseMH.js';
+  
 
   return (
     <div className="tarea">
       <div className="contenedorTarea">
-      <h1 className='tituloTarea'>Caso de estudio: Fin de mes MercaHelado</h1>
+      <h1 className='tituloTarea'>Caso de estudio: MercaHelado</h1>
         <p className='parrafoTarea'>El fin de mes comienza a acercarse y como tal la empresa de Mercahelado y la base de datos que poseen deben estar preparadas
           para poder brindar informacion respecto a los productos registrados de sus asociados. Como tal cada producto cuenta con los siguientes
           campos de informacion:
@@ -30,7 +31,10 @@ function Tarea() {
           </ul>
           <p/>
           <p>Haz clic en el siguiente enlace para descargar el archivo de la base de datos:</p>
-          <a href={rutaArchvio} download="baseMH.js">Descargar baseMH.js</a>
+          <a href="/baseMH.js" download>
+          Descargar baseMH.js
+        </a>
+
           <p/>
           <p>Imagen de la base:</p>
           <img src={base}/>
