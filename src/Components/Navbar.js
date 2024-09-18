@@ -20,7 +20,7 @@ function Navbar() {
         <div className="linksOcultos">
         <Link to='/'>Inicio</Link>
         <Link to='/productos'>Productos</Link>
-        <Link to='/nosotros'>Sobre nosotros</Link>
+        <Link to='/nosotros'>Nosotros</Link>
         <Link to='/contacto'>Contactos</Link>
         <Link to='/tarea'>Tarea</Link>
         </div>
@@ -29,7 +29,7 @@ function Navbar() {
       <div className='ladoDer'>
         <Link to='/'>Inicio</Link>
         <Link to='/productos'>Productos</Link>
-        <Link to='/nosotros'>Sobre nosotros</Link>
+        <Link to='/nosotros'>Nosotros</Link>
         <Link to='/contacto'>Contactos</Link>
         <Link to='/tarea'>Tarea</Link>
         <button onClick={ocultarNavbar}>

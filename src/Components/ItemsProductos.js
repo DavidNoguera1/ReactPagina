@@ -6,7 +6,7 @@ function ItemsProductos({ nombre, imagen, precioU, productor, tipo }) {
       <div style={{ backgroundImage: `url(${imagen})` }}></div>
       <h1>{nombre}</h1>
       <p>Precio Unitario: ${precioU}</p>
-      <p>Disstribuidor: {productor}</p>
+      <p>Marca: {productor}</p>
       <p>Categoria: {tipo}</p>
     </div>
   );
