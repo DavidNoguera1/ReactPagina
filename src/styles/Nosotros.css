@@ -1,9 +1,22 @@
+@keyframes slideDer {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
 .info {
   width: 100%;
-  min-height: calc(100vh - 200px); /* Ajustar el espacio disponible para que el footer esté siempre visible */
+  min-height: calc(100vh - 200px); 
   display: flex;
   flex-direction: column;
   margin-bottom: 1px;
+  animation: slideDer 0.5s ease-out; 
 }
 
 .infoHead {

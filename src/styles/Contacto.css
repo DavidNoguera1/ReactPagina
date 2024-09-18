@@ -1,7 +1,19 @@
+@keyframes slideIzq {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 .contacto {
     width: 100%;
     height: 90vh;
     display: flex;
+    animation: slideIzq 0.5s ease-out; 
   }
   
   .contacto .ladoIzq {
