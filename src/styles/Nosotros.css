@@ -38,7 +38,7 @@
   width: 100%;
   background: linear-gradient(
     90deg,
-    rgba(238, 182, 118, 0.8),
+    rgb(253, 240, 181),
     rgba(252, 166, 195, 0.9)
   );
   align-items: center; 
@@ -68,12 +68,21 @@
   object-fit: cover; 
 }
 
+.infoBottom h1, .infoBottom p {
+  border-radius: 10px; 
+  padding: 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  margin: 10px; 
+}
+
 .infoBottom h1 {
   font-weight: 400;
   font-size: 40px;
-  color: #860c35;
+  color: #f0f0f0;
+  background-color: #860c35;
   margin-bottom: 10px;
   font-weight: bold;
+  text-align: center; 
 }
 
 .infoBottom p {
@@ -82,4 +91,6 @@
   font-size: 18px;
   text-align: center;
   margin-top: 0;
+  color: #860c35;
+  background-color: #f0f0f0;
 }
