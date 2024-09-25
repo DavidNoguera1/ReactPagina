@@ -79,12 +79,12 @@
   }
 
 
-/* Estilos para el menú desplegable */
-.menu-desplegable {
+
+.menuDesplegable {
   position: relative;
 }
 
-.menu-boton {
+.menuBoton {
   background-color: transparent;
   border: none;
   color: rgb(238, 182, 118);
@@ -93,7 +93,7 @@
   font-family: 'Source Sans Pro Topnav', sans-serif;
 }
 
-.menu-lista {
+.menuLista {
   position: absolute;
   top: 40px;
   right: 0;
@@ -104,17 +104,17 @@
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.menu-lista li {
+.menuLista li {
   margin: 5px 0;
 }
 
-.menu-lista li a {
+.menuLista li a {
   color: rgb(238, 182, 118);
   text-decoration: none;
   font-size: 18px;
 }
 
-.menu-lista li a:hover {
+.menuLista li a:hover {
   color: white;
   transition: 0.3s ease-in;
 }

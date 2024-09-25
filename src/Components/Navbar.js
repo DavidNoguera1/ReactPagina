@@ -6,7 +6,7 @@ import '../styles/Navbar.css';
 function Navbar() {
   const [mostrarMenu, setMostrarMenu] = useState(false);
 
-  const toggleMenu = () => {
+  const recogerLista = () => {
     setMostrarMenu(!mostrarMenu);
   };
 
@@ -23,15 +23,15 @@ function Navbar() {
         <Link to="/tarea">Tarea</Link>
 
 
-        <div className="menu-desplegable">
-          <button className="menu-boton" onClick={toggleMenu}>Taller</button>
+        <div className="menuDesplegable">
+          <button className="menuBoton" onClick={recogerLista}>Taller</button>
           {mostrarMenu && (
-            <ul className="menu-lista">
+            <ul className="menuLista">
               <li><Link to="/carros">Carros</Link></li>
-              <li><Link to="/mercado">Mercado</Link></li>
-              <li><Link to="/hotel">Hotel</Link></li>
+              <li><Link to="/mercado">Mercados</Link></li>
+              <li><Link to="/hotel">Hoteles</Link></li>
               <li><Link to="/materias">Materias</Link></li>
-              <li><Link to="/restaurante">Restaurante</Link></li>
+              <li><Link to="/restaurante">Restaurantes</Link></li>
             </ul>
           )}
         </div>

@@ -13,7 +13,7 @@ import consulta10 from "../assets/assets6/consulta10.png"
 export const ListaMaterias = [
     {
         titulo: "Consulta 1",
-        descripcion1: `El curso "Curso de desarrollo humano" es fundamental para los estudiantes que buscan fortalecer su crecimiento personal. Para asegurarse de que los datos de este curso están correctamente almacenados, se realizó la siguiente consulta:`, 
+        descripcion1: `La materia "Curso de desarrollo humano" es fundamental para los estudiantes que buscan fortalecer su crecimiento personal. Para asegurarse de que los datos de este curso están correctamente almacenados, se realizó la siguiente consulta:`, 
         consulta: `db.materias.find({ nombre: { $eq: "Curso de desarrollo humano" } }).pretty();`,
         imagen: consulta1,
         descripcion2: `Se confirma que la materia "Curso de desarrollo humano" está correctamente registrada en la base de datos.`,

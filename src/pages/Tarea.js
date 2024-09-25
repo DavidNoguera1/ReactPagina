@@ -10,10 +10,10 @@ function Tarea() {
   
 
   return (
-    <div className="tarea">
-      <div className="contenedorTarea">
-      <h1 className='tituloTarea'>Caso de estudio: MercaHelado</h1>
-        <p className='parrafoTarea'>El fin de mes comienza a acercarse y como tal la empresa de Mercahelado y la base de datos que poseen deben estar preparadas
+    <div className="tarea1">
+      <div className="contenedorTarea1">
+      <h1 className='tituloTarea1'>Caso de estudio: MercaHelado</h1>
+        <p className='parrafoTarea1'>El fin de mes comienza a acercarse y como tal la empresa de Mercahelado y la base de datos que poseen deben estar preparadas
           para poder brindar informacion respecto a los productos registrados de sus asociados. Como tal cada producto cuenta con los siguientes
           campos de informacion:
           <p/>
@@ -40,7 +40,7 @@ function Tarea() {
           <img src={base}/>
         </p>
       </div>
-      <div className="listaTareas">
+      <div className="listaTareas1">
         {ListaTarea.map((itemTarea, key) => {
           return (
             <ItemsTareas

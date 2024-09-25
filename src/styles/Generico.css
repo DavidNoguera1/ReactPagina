@@ -14,8 +14,8 @@
   text-align: center;
   background: linear-gradient(
     90deg,
-    rgb(173, 216, 230), /* Azul claro */
-    rgba(70, 130, 180, 0.9) /* Azul acero oscuro */
+    rgb(173, 216, 230), 
+    rgba(70, 130, 180, 0.9) 
   );
   animation: arriba 0.7s ease-out;
 }
@@ -36,7 +36,7 @@
   font-weight: 400;
   font-size: 40px;
   color: #f0f0f0;
-  background-color: #1f3a93; /* Azul oscuro */
+  background-color: #1f3a93; 
   margin-bottom: 10px;
   font-weight: bold;
   text-align: center;
@@ -52,7 +52,7 @@
 
 .parrafoTarea {
   font-size: 18px;
-  color: #1f3a93; /* Azul oscuro */
+  color: #1f3a93; 
 }
 
 .parrafoTarea ul {
@@ -72,8 +72,8 @@
 }
 
 .itemTarea {
-  background-color: #1f3a93; /* Azul oscuro */
-  border-color: #1f3a93; /* Azul oscuro */
+  background-color: #1f3a93; 
+  border-color: #1f3a93; 
   border-radius: 5px;
   margin: 10px auto;
   padding: 10px;
@@ -95,7 +95,7 @@
 
 .itemTarea.abierto h2 {
   margin: 0;
-  color: #1f3a93; /* Azul oscuro */
+  color: #1f3a93; 
 }
 
 .itemTarea-contenido {
@@ -112,7 +112,7 @@
   background-color: #f0f0f0;
   padding: 10px;
   margin: 10px 0;
-  border-left: 4px solid #1f3a93; /* Azul oscuro */
+  border-left: 4px solid #1f3a93; 
   font-style: italic;
 }
 
