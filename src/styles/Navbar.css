@@ -32,6 +32,7 @@
     text-decoration: none;
     margin: 20px;
     font-size: 20px;
+    font-weight: bold;
   }
 
   .navbar a:hover {
@@ -43,8 +44,10 @@
   .navbar .ladoDer button {
     background-color: transparent;
     border: none;
-    color: white;
+    color: rgb(238, 182, 118);
     cursor: pointer;
+    font-weight: bold;
+    font-weight: 30px;
   }
   
   .navbar .ladoDer svg {
@@ -74,40 +77,45 @@
       padding-left: 50px;
     }
   }
-  
 
-/* Todo esto sirve para flexibilizar la pagina cuando reduzca la pantalla y para ocultar la navbar*/
 
-.navbar #mostar .linksOcultos {
-    display: inherit;
-    margin-left: 30px;
-  }
-  
-  .navbar #ocultar .linksOcultos {
-    display: none;
-  }
-  
-  @media only screen and (max-width: 700px) {
-    .navbar .ladoDer a {
-      display: none;
-    }
-  
-    .navbar .ladoDer {
-      justify-content: flex-end;
-      padding-right: 50px;
-    }
-  
-    .navbar .ladoDer button {
-      display: inherit;
-    }
-  }
-  
-  @media only screen and (min-width: 700px) {
-    .navbar .ladoDer button {
-      display: none;
-    }
-  
-    .linksOcultos {
-      display: none;
-    }
-  }
+/* Estilos para el menú desplegable */
+.menu-desplegable {
+  position: relative;
+}
+
+.menu-boton {
+  background-color: transparent;
+  border: none;
+  color: rgb(238, 182, 118);
+  font-size: 20px;
+  cursor: pointer;
+  font-family: 'Source Sans Pro Topnav', sans-serif;
+}
+
+.menu-lista {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background-color: #860c35;
+  padding: 10px;
+  border-radius: 5px;
+  list-style: none;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.menu-lista li {
+  margin: 5px 0;
+}
+
+.menu-lista li a {
+  color: rgb(238, 182, 118);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.menu-lista li a:hover {
+  color: white;
+  transition: 0.3s ease-in;
+}
+

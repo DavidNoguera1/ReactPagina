@@ -1,0 +1,125 @@
+@keyframes arriba {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.tarea {
+  padding: 20px;
+  text-align: center;
+  background: linear-gradient(
+    90deg,
+    rgb(173, 216, 230), /* Azul claro */
+    rgba(70, 130, 180, 0.9) /* Azul acero oscuro */
+  );
+  animation: arriba 0.7s ease-out;
+}
+
+.contenedorTarea {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.contenedorTarea .tituloTarea {
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(27, 27, 27, 0.1);
+  margin: 10px;
+}
+
+.tituloTarea {
+  font-weight: 400;
+  font-size: 40px;
+  color: #f0f0f0;
+  background-color: #1f3a93; /* Azul oscuro */
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.contenedorTarea .parrafoTarea {
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  background-color: #f0f0f0;
+}
+
+.parrafoTarea {
+  font-size: 18px;
+  color: #1f3a93; /* Azul oscuro */
+}
+
+.parrafoTarea ul {
+  list-style-type: disc;
+  margin: 0;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.parrafoTarea li {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.listaTarea {
+  margin-top: 20px;
+}
+
+.itemTarea {
+  background-color: #1f3a93; /* Azul oscuro */
+  border-color: #1f3a93; /* Azul oscuro */
+  border-radius: 5px;
+  margin: 10px auto;
+  padding: 10px;
+  width: 80%;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.itemTarea.abierto {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.itemTarea h2 {
+  margin: 0;
+  color: white;
+}
+
+.itemTarea.abierto h2 {
+  margin: 0;
+  color: #1f3a93; /* Azul oscuro */
+}
+
+.itemTarea-contenido {
+  display: none;
+  text-align: left;
+  padding: 20px;
+}
+
+.itemTarea.abierto .itemTarea-contenido {
+  display: block;
+}
+
+.itemTarea .consulta {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin: 10px 0;
+  border-left: 4px solid #1f3a93; /* Azul oscuro */
+  font-style: italic;
+}
+
+.itemTarea img {
+  max-width: 100%;
+  height: auto;
+  max-height: 500px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
