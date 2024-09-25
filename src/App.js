@@ -10,6 +10,7 @@ import Carros from "./pages/Carros";
 import Mercado from "./pages/Mercado";
 import Hotel from "./pages/Hoteles";
 import Materias from "./pages/Materias";
+import Restaurante from "./pages/Restaurante";
 import Footer from "./Components/Footer";
 
 
@@ -29,6 +30,7 @@ function App() {
           <Route path="/mercado" element={<Mercado />} />
           <Route path="/materias" element={<Materias />} />
           <Route path="/hotel" element={<Hotel />} />
+          <Route path="/restaurante" element={<Restaurante />} />
         </Routes>
         <Footer />
       </Router>
