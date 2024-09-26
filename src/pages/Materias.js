@@ -15,16 +15,15 @@ function Materias() {
           <p/>
           <ul>
           <li><strong>nombre:</strong> Nombre del la materia.</li>
-          <li><strong>codigo:</strong> Localizacion del hotel en calles y carreras.</li>
-          <li><strong>tipo:</strong> Codigo unico correespondiente a cada materia.</li>
+          <li><strong>codigo:</strong> Codigo unico correespondiente a cada materia.</li>
           <li><strong>Descripcion:</strong> Descripcion profesional sobre la materia.</li>
           <li><strong>Creditos:</strong> Creditos asignados que cada materia </li>
-          <li><strong>horas_clase_teoricas:</strong> Nombre muy descriptivo, numero de horas de enseñanza teorica en clases</li>
-          <li><strong>horas_clase_practicas:</strong> Nombre muy descriptivo, numero de horas de enseñanza teorica mediante trabajos en casa.</li>
-          <li><strong>Profesor_responsable:</strong> Docente encragado de dictar la materia.</li>
-          <li><strong>Aula_asignada:</strong> Espacio de encuentro donde se dictaria la clase.</li>
+          <li><strong>horast:</strong> Numero de horas de enseñanza teorica en clases</li>
+          <li><strong>horap:</strong> Numero de horas de enseñanza practica.</li>
+          <li><strong>Profesor:</strong> Docente encragado de dictar la materia.</li>
+          <li><strong>Aula:</strong> Espacio de encuentro donde se dictaria la clase.</li>
           <li><strong>Prerrequisitos:</strong> Condiciones necesarias previamente cumplidas para cursar la materia.</li>
-          <li><strong>Promedio_calificaciones:</strong> Promedio de calificaciones que generalmente se obtiene en estas materias.</li>
+          <li><strong>Promedio:</strong> Promedio de calificaciones que generalmente se obtiene en estas materias.</li>
           </ul>
           <p/>
           <p>Haz clic en el siguiente enlace para descargar el archivo de la base de datos:</p>
